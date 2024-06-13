@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Module 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+    <h2>Module 1: Introduction to Web Technologies</h2>
+    <p>This module covers the basics of web technologies, including HTML, CSS, and JavaScript.</p>
+</body>
+</html>
+

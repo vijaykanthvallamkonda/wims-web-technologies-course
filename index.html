@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WIMS 2021 Web Technologies Course</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header, footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 1em;
+            font-size: 1.2em;
+        }
+        nav {
+            background-color: #eeeeee;
+            padding: 1em;
+            width: 20%;
+            float: left;
+            height: 80vh;
+            overflow-y: auto;
+        }
+        iframe {
+            border: none;
+            width: 80%;
+            height: 80vh;
+            float: left;
+        }
+        footer {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BITS Pilani</h1>
+        <h2>WIMS 2021</h2>
+        <h3>Web Technologies Course</h3>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="modules/module1.html" target="contentFrame">Module 1</a></li>
+            <li><a href="modules/module2.html" target="contentFrame">Module 2</a></li>
+            <li><a href="modules/module3.html" target="contentFrame">Module 3</a></li>
+            <li><a href="modules/module4.html" target="contentFrame">Module 4</a></li>
+            <li><a href="modules/module5.html" target="contentFrame">Module 5</a></li>
+            <li><a href="modules/module6.html" target="contentFrame">Module 6</a></li>
+            <!-- Add more modules as needed -->
+        </ul>
+    </nav>
+    <iframe src="modules/module1.html" name="contentFrame"></iframe>
+    <footer>
+        Website designed by <span id="studentName">[Student Name]</span> and <span id="bitsId">[BITS ID]</span>
+    </footer>
+</body>
+</html>
+

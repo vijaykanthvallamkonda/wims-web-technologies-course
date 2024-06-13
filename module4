@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Module 4</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+    <h2>Module 4: JavaScript Basics</h2>
+    <p>This module provides an overview of JavaScript, including basic syntax, variables, functions, and event handling.</p>
+</body>
+</html>
+
